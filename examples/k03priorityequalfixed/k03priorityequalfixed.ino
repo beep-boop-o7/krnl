@@ -64,10 +64,10 @@ void setup()
 	/* for (int i=8; i< 14; i++) { pinMode(i,OUTPUT); digitalWrite(i,LOW); } */
 	
 	
-	k_init(2, 0, 0); // init with space for one task
-	//     |  |  |--- no of mg Queues (0)
-	//     |  |----- no of semaphores (0)
-	//     |------------- no of tasks (2)
+	k_init(2, 0, 0); // init with space for two tasks
+	//     |  |  |--- num of mg Queues (0)
+	//     |  |----- num of semaphores (0)
+	//     |------------- num of tasks (2)
 	
 	// priority: lower number has higher priority than higher number
 	p1 = k_crt_task(t1, 10, s1, SS); // t1 as task, priority 10, 100 B stak
