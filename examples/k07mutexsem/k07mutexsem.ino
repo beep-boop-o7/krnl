@@ -73,11 +73,11 @@ void setup()
   pinMode(13, OUTPUT);
 
   k_init(2, 2, 0); // init with space for two tasks and two semaphores
-	//     |  |  |--- num of mg Queues (0)
-	//     |  |----- num of semaphores (2)
-	//     |------------- num of tasks (2)
-	
-	// priority: lower number has higher priority than higher number
+  //     |  |  |--- num of mg Queues (0)
+  //     |  |----- num of semaphores (2)
+  //     |------------- num of tasks (2)
+
+  // priority: lower number has higher priority than higher number
   p1 = k_crt_task(t1, 10, a1,STK); // t1 as task, priority 10, 100 B stak
   p2 = k_crt_task(t2, 10, a2,STK); // t1 as task, priority 10, 100 B stak
 
