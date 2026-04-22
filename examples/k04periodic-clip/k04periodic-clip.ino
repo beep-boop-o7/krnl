@@ -42,7 +42,7 @@ void tperiodic()
 void tnoise()
 {
 	while (1) {
-		k_eat_msec(600); // we eat between 30 and 200 msec of time
+		k_eat_msec(600); // we eat 600 msec of time
 		k_sleep(1000);     // and sleep for 1000 msec
 	}
 }
