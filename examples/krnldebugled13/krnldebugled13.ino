@@ -30,7 +30,7 @@ void setup()
 
   k_init(3, 0, 0); // init with space for three tasks
 
-	// priority: lower number has higher priority than higher number
+  // priority: lower number has higher priority than higher number
   p1 = k_crt_task(t1, 10, st1, STK); // t1 as task, priority 10, 100 B stak
   p2 = k_crt_task(t1, 11, st2, STK); // t1 as task, priority 10, 100 B stak
 //   p3 = k_crt_task(t1, 12, st3, STK); // t1 as task, priority 10, 100 B stak
