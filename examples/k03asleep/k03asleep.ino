@@ -55,7 +55,7 @@
 	 while (! Serial) ;
 	 pinMode(13, OUTPUT);
 	 
-	 k_init(2, 0, 0); // init with space for one task
+	 k_init(2, 0, 0); // init with space for two tasks
 	 //     |  |  |--- num of mg Queues (0)
 	 //     |  |----- num of semaphores (0)
 	 //     |------------- num of tasks (2)
