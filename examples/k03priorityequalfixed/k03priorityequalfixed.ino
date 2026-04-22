@@ -6,7 +6,7 @@
 // Set t1 priority to  9 == highest priority
 // What will happen ? What do you see on the led and the measurements
 // REALTIME ?
-// change priority of t1 to 11 (higher than t2) : does it matter?
+// change priority of t1 to 9 (higher than t2) : does it matter?
 
 // give a guess as to how cpu time is used in krnl "dummy time eating"
 
